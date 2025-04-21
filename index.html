@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+    <title>Pagina de un hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Bienvenido al hotel</h1>
+   <p>Aca puede ver que es unos de los hoteles mas grandes</p>
+    </header>
+
+    <section>
+        <h2>Esta es la imagen de un paisaje</h2>
+        <img src="img/paisaje.jpg">
+        <p>Este paisaje se ve que esta un atardecer junto a montañas y un mar </p>
+    </section>
+    <form action="/enviar" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido"><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+        <button type="submit">Enviar</button>
+    </form> 
+</body>
+</html>
